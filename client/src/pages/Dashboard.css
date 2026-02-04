@@ -1,0 +1,32 @@
+.dashboard {
+    min-height: 100vh;
+    background: var(--bg-primary);
+}
+
+.dashboard__content {
+    padding: var(--spacing-2xl) 0;
+}
+
+.dashboard__header {
+    margin-bottom: var(--spacing-2xl);
+}
+
+.dashboard__header h1 {
+    margin-bottom: var(--spacing-sm);
+}
+
+.dashboard__subtitle {
+    color: var(--text-secondary);
+    font-size: 1.125rem;
+}
+
+.dashboard__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-xl);
+}
+
+.card-text {
+    color: var(--text-secondary);
+    margin: var(--spacing-lg) 0;
+}
